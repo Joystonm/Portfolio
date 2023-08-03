@@ -18,14 +18,14 @@
 
 </head>
 
-<body data-bs-theme="light">
+<body data-bs-theme="dark">
 
     <header class="nav-bar">
         <nav class="navbar navbar-expand-lg bs-dark">
             <div class="container-fluid">
-                <!---img :logo-->
-                <a class="navbar-brand" href="#">Portfolio</a>
-                <!--d-lg:s=dont show in desktop,onlly in mobile-->
+                <a class="navbar-brand" href="#">
+                    <img src="./images/IMG_20230803_180753-removebg-preview.png" alt="Portfolio-logo">
+                </a>
                 <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around "
                     type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,22 +44,11 @@
                             <a class="nav-link active " aria-current="page" href="#">Project</a>
                         </li>
                         <li class="nav-item btn-grad">
-                            <a class="nav-link active me-4" aria-current="page" href="#">Animate</a>
-                        </li>
-                        <li class="nav-item btn-grad">
-                            <a class="nav-link active me-4" aria-current="page" href="#">Contact Us Us</a>
+                            <a class="nav-link active me-4" aria-current="page" href="#">Contact Us</a>
                         </li>
                         <li class="nav-item icons">
 
                         </li>
-                        <!--dark mode-->
-                        <div class="form-check form-switch">
-
-                            <input class="form-check-input  btn-grad" type="checkbox" role="switch"
-                                id="flexSwitchCheckDefault" checked onclick="dark()">
-                            <label class="form-check-label dark active" aria-current="page"
-                                for="flexSwitchCheckDefault">Dark <span class="light">light</span></label>
-                        </div>
                     </ul>
                 </div>
             </div>
@@ -68,7 +57,7 @@
 
     <section class="home">
         <div class="content">
-            <h3 class="animate__heartBeat">Portfolio</h3>
+            <h3>Portfolio</h3>
             <p class="animate__bounceInUp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus eveniet
                 deleniti beatae libero quia unde nemo dolorum ullam pariatur atque cupiditate, eligendi dolore. Eum
                 ipsa, fugiat beatae omnis quia expedita?</p>
@@ -77,7 +66,7 @@
         </div>
 
         <div class="image">
-            <img src="photo_2023-05-09_21-36-30-removebg-preview.png">
+            <img src="./images/photo_2023-05-09_21-36-30-removebg-preview.png">
         </div>
     </section>
 
