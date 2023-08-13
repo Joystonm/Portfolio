@@ -2,15 +2,18 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
 }
+
 
 .nav-bar{
     position: sticky;
     top: 0;
     z-index: 10;
-    color: black !important;
-}
+    /* /* color: black !important; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+} 
 
 .navbar-toggler{
     width: 20px;
@@ -144,11 +147,11 @@ font-size: 30px;
     display: flex;
     align-items: center;
     flex:1 1 350px;
-   background: url(./images/stacked-steps-haikei-removebg-preview.png);
+   /* background: url(./images/stacked-steps-haikei-removebg-preview.png); */
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   color: white;
+   color: rgb(11, 11, 11);
 }
 
 .home .image{
@@ -166,10 +169,21 @@ font-size: 30px;
     font-weight: bold;
 }
 
-.animate__bounceInUp{
-    --animate-duration: 3.5s;
-}
 
+/* SKILL */
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.icon img{ 
+    width: 80px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+mix-blend-mode: multiply;
+   
+}
 /* Contact section */
 
 
