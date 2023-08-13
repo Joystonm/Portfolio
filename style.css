@@ -221,11 +221,34 @@ form input,form textarea{
        
     }
     .navbar-nav{
+
         display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
       
     }
+    .btn-grad {
+        background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+        text-align: center;
+        margin: 10px;
+        padding: 0px 10px;
+        width: 100%;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        border-radius: 20px;
+        display: block;
+        box-shadow:1rem .5rem 1rem rgba(170, 167, 167, 0.4);
+      }
+    
+      .btn-grad:hover {
+        background-position: right center; 
+        color: #fff;
+        text-decoration: none;
+      }
 
     .home{
          align-items: center;
@@ -239,5 +262,9 @@ form input,form textarea{
     .row{
         flex-wrap: nowrap;
         flex-direction: column;
+        margin: 5px;
+    }
+    .contact-right h1{
+        margin: 4px;
     }
 }
